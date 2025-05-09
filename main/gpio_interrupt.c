@@ -34,11 +34,11 @@
 
 //pin mapping
 //#define LED_PIN 33 // ACT 5w
-#define LED1_PIN 33 // GPIO 3 powerled
-#define LED2_PIN 21 //GPIO 19 LED GREEN
-#define LED3_PIN 20 //GPIO 20 LED BLUE
+#define LED1_PIN 3 // GPIO 3 powerled
+#define LED2_PIN 33 //GPIO 19 LED GREEN
+#define LED3_PIN 20 //GPIO 20 LED BLUE POWER
 #define BUTTON1_PIN 0 //GPiO 0  SW1
-#define BUTTON2_PIN 0 //GPIO 10 LASER HEAD
+#define BUTTON2_PIN 0 //GPIO 13 X
 
 static const char* TAG = "BUTTON_TEST";                 //tag for ESP_LOGx
 
