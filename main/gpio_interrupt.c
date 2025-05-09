@@ -34,9 +34,9 @@
 
 //pin mapping
 //#define LED_PIN 33 // ACT 5w
-#define LED1_PIN 3 // GPIO 3 powerled
-#define LED2_PIN 33 //GPIO 19 LED GREEN
-#define LED3_PIN 20 //GPIO 20 LED BLUE POWER
+#define LED1_PIN 33 // GPIO 3 powerled
+#define LED2_PIN 20 //GPIO 19 LED GREEN
+#define LED3_PIN 19 //GPIO 20 LED BLUE POWER
 #define BUTTON1_PIN 0 //GPiO 0  SW1
 #define BUTTON2_PIN 0 //GPIO 13 X
 
@@ -84,6 +84,7 @@ void buttonTask(void *pvpameters)
 
 //main function
 void app_main(void)
+
 {
     //initialize LED_PIN_1 and LED_PIN_2 as output
     //gpio_reset_pin(LED_PIN);                            //reset pin and set as GPIO
