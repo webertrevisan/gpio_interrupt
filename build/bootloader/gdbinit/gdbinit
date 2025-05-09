@@ -1,0 +1,2 @@
+source C:/Dev/gpio_interrupt/build/bootloader/gdbinit/symbols
+source C:/Dev/gpio_interrupt/build/bootloader/gdbinit/connect
